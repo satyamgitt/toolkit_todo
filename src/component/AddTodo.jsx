@@ -12,14 +12,14 @@ const AddTodo = () => {
   };
   return (
     <>
-    <p>Todo App</p>
+    <p>Todo App hai bro</p>
       <form onSubmit={handleForm}>
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
-        <button type="submit">Add</button>
+        <button type="submit">Add todos</button>
       </form>
     </>
   );
