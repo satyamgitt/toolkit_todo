@@ -1,9 +1,15 @@
 
 import React from 'react'
+import AddTodo from './component/AddTodo'
+import ShowTodo from './component/ShowTodo'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <AddTodo/>
+    <ShowTodo/>
+    
+    </>
   )
 }
 
